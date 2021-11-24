@@ -4,7 +4,7 @@ public class Product {
     int id;
     String name ;
     String photo;
-    String descricao;
+    String description;
     int price;
 
     public int getId() {
@@ -31,12 +31,12 @@ public class Product {
         this.photo = photo;
     }
 
-    public String getDescricao() {
-        return descricao;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public int getPrice() {

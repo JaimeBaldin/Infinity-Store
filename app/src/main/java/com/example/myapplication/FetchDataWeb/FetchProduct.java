@@ -8,7 +8,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -43,8 +42,12 @@ public class FetchProduct extends  AsyncTask<String, Void, ArrayList<Product>> {
 
                     Product product = new Product();
 
-                    product.getName() = jsonObject.getString("name");
-                    product.getId() = jsonObject.getInt("id");
+                    product.setName(jsonObject.getString("name"));
+                    product.setId(jsonObject.getInt("id"));
+                    product.setDescription(jsonObject.getString("description"));
+                    product.setPrice(jsonObject.getInt("price"));
+
+                    listReturn.add(product);
                 }
             }
         } catch (MalformedURLException e) {
