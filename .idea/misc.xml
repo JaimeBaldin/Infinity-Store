@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Infinity-Store/app/src/main/res/layout/activity_client2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Infinity-Store/app/src/main/res/layout/activity_client2.xml" value="0.35342465753424657" />
+        <entry key="..\:/Infinity-Store/app/src/main/res/layout/activity_company.xml" value="0.36666666666666664" />
         <entry key="..\:/Infinity-Store/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Infinity-Store/app/src/main/res/layout/activity_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Infinity-Store/app/src/main/res/layout/listview_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/Infinity-Store/app/src/main/res/layout/listview_company.xml" value="0.36666666666666664" />
+        <entry key="..\:/Infinity-Store/app/src/main/res/layout/listview_product_view.xml" value="0.35260416666666666" />
       </map>
     </option>
   </component>

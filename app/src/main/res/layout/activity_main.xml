@@ -22,21 +22,21 @@
         app:srcCompat="@drawable/bg" />
 
     <Button
-        android:id="@+id/btnGoCompany"
+        android:id="@+id/btnOpenCompany"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:text="Empresa"
         android:textSize="34sp"
         app:backgroundTint="#81A8A6"
-        app:layout_constraintBottom_toTopOf="@+id/btnGoProduct"
+        app:layout_constraintBottom_toTopOf="@+id/btnOpenClient"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.517" />
 
     <Button
-        android:id="@+id/btnGoProduct"
+        android:id="@+id/btnOpenClient"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Consumidor"
@@ -57,7 +57,7 @@
         android:text="Infinity-Store"
         android:textSize="60sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btnGoCompany"
+        app:layout_constraintBottom_toTopOf="@+id/btnOpenCompany"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:text="Quem é você"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnGoCompany"
+        app:layout_constraintBottom_toTopOf="@+id/btnOpenCompany"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"

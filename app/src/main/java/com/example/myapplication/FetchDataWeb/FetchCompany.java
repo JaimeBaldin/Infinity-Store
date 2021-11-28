@@ -2,7 +2,7 @@ package com.example.myapplication.FetchDataWeb;
 
 import android.os.AsyncTask;
 
-import com.example.myapplication.DataBase.Company;
+import com.example.myapplication.Company;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -42,9 +42,9 @@ public class FetchCompany extends AsyncTask<String, Void, ArrayList<Company>> {
 
                     Company company = new Company();
 
-                    company.setId(jsonObject.getInt("id"));
-                    company.setName(jsonObject.getString("name"));
-                    company.setWhatsApp(jsonObject.getString("whatsapp"));
+                    company.name =  jsonObject.getString("name");
+                    company.id = jsonObject.getInt("id");
+                    company.whatsApp = jsonObject.getString("whatsapp");
 
                     returnList.add(company);
                 }
